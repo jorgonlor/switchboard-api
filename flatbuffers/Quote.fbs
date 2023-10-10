@@ -74,4 +74,8 @@ table Quote {
     bid: [QuoteEntry];
     /// Offer quote entries.
     offer: [QuoteEntry];
+    /// Mid price.
+    mid_price: double;
+    /// Swap only, far mid price.
+    far_mid_price: double;
 }
